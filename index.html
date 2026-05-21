@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jumper Game</title>
+  <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+
+  <h1 id="title" class="bc-text">Jumper Game</h1>
+
+  <div id="hud">
+    <span id="score" class="bc-text">SCORE: 0</span>
+    <span id="time"  class="bc-text">TIME: 0s</span>
+  </div>
+
+  <div id="game">
+    <div id="dino"></div>
+  </div>
+
+  <div id="controls">
+    <div><span>SPACE / ↑</span> &nbsp;JUMP</div>
+    <div><span>↓</span> &nbsp;DUCK</div>
+  </div>
+
+  <button id="begin" class="bc-text">PRESS TO BEGIN</button>
+
+  <div id="endScreen">
+    <div class="endBox">
+      <h2 class="bc-text">GAME OVER</h2>
+      <p id="finalScore" class="bc-text"></p>
+      <p id="finalTime"  class="bc-text"></p>
+      <button id="retry" class="bc-text">TRY AGAIN</button>
+    </div>
+  </div>
+
+  <script src="Scripts/main.js"></script>
+</body>
+</html>
